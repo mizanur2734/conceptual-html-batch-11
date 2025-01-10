@@ -1,0 +1,48 @@
+.photo-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.photo-container img{
+    max-width: 200px;
+    border-radius: 400px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#hero{
+    height: 400px;
+    background-image: linear-gradient(0deg, #000000cf, #000000cf), url(../basic/images/feni.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 35px;
+}
+#hero .search{
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+#hero .search input{
+    border: none;
+    padding: 10px 0px;
+    border-radius: 20px 0 0 20px;
+}
+#hero .search button{
+    background-color: aqua;
+    padding: 10px 0px;
+    padding-right: 20px;
+    padding-left: 10px;
+    border-radius: 0 20px 20px 0 ;
+    border: none;
+}
